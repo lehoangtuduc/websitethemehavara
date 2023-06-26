@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themes Store Havaran</title>
+    <link rel="stylesheet" href="./lbr/style/style.css" />
+    <link rel="stylesheet" href="./lbr/style/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <header class="header-inner">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+      <div class="menu_mobile d-block d-lg-none col-xs-12">
+          <div class="header_action_icon" id="mn_mobile_icon">
+            <i class="bi bi-list"></i>
+            <nav id="mp-menu" class="mp-menu mp-cover">
+              <ul class="mm-panel list-unstyled vertical-menu-list" id="mn_mobile" style=" height: 370px;">
+                <li class="menu-link">
+                  <a class="menuDropDown01" href="index.html" style="text-decoration: none">Trang chủ</a>
+                </li>
+
+                <li class="menu-link">
+                  <a class="menuDropDown" href="gioithieu.html" style="text-decoration: none">Giới thiệu</a>
+                </li>
+                <li class="menu-link">
+                  <a class="menuDropDown" href="duan.html" style="text-decoration: none">Dự án</a>
+                </li>
+
+                <li class="menu-link">
+                  <a class="menuDropDown" href="chitietduan.html" style="text-decoration: none">Chi tiết dự án</a>
+                </li>
+                <li class="menu-link">
+                  <a class="menuDropDown" href="Blog.html" style="text-decoration: none">Blog</a>
+                </li>
+                <li class="menu-link">
+                  <a class="menuDropDown" href="lienhe.html" style="text-decoration: none">Liên hệ</a>
+                </li>
+                <li class="main_help">
+                  <div class="mobile_menu_section">
+                    <p class="mobile_menu_section-title">Bạn cần hỗ trợ ? Hãy liên hệ với chúng tôi</p>
+                    <div class="mobile_menu_help" >
+                      <svg class="icon icon--bi-phone" viewBox="0 0 24 24" style="width: 20px; ">
+                        <g stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+                          <path d="M17 15l-3 3-8-8 3-3-5-5-3 3c0 9.941 8.059 18 18 18l3-3-5-5z" stroke="#333333"></path>
+                          <path d="M14 1c4.971 0 9 4.029 9 9m-9-5c2.761 0 5 2.239 5 5" stroke="#333333"></path>
+                        </g>
+                      </svg>
+                      <a href="tel:1900636099" rel="nofollow" style="text-decoration: none; color: #000;">1900.636.099</a>
+                    </div>
+                    <div class="mobile_menu_help">
+                      <svg class="icon icon--bi-email" viewBox="0 0 22 22" style="width: 20px; ">
+                        <g fill="none" fill-rule="evenodd">
+                          <path stroke="#333333" d="M.916667 10.08333367l3.66666667-2.65833334v4.65849997zm20.1666667 0L17.416667 7.42500033v4.65849997z"></path>
+                          <path stroke="#333333" stroke-width="2" d="M4.58333367 7.42500033L.916667 10.08333367V21.0833337h20.1666667V10.08333367L17.416667 7.42500033"></path>
+                          <path stroke="#333333" stroke-width="2" d="M4.58333367 12.1000003V.916667H17.416667v11.1833333m-16.5-2.01666663L21.0833337 21.0833337m0-11.00000003L11.0000003 15.5833337"></path>
+                          <path d="M8.25000033 5.50000033h5.49999997M8.25000033 9.166667h5.49999997" stroke="#333333" stroke-width="2" stroke-linecap="square"></path>
+                        </g>
+                      </svg>
+                      <a href="mailto:hi@haravan.com" rel="nofollow" style="text-decoration: none; color: black;"> hi@haravan.com</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <a class="navbar-brand" href="index.html"> 
+          <img src="./lbr/image/logo.webp" alt="" srcset="" style="max-width: 100%;">
+        </a>
+        <div class="col-lg-9 col-md-7 col-xs-12">
+          <div class="d-flex flex-row justify-content-end align-items-center">
+            <div class="menu_desktop d-none d-lg-block">
+              <nav class="desk_menu">
+                <ul class="list-unstyled">
+                  <li class="active">
+                    <a href="/" title="Trang chủ">
+                      Trang chủ
+
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="gioithieu.html" title="Giới thiệu">
+                      Giới thiệu
+
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="duan.html" title="Dự án"> Dự án </a>
+                  </li>
+                  <li class="">
+                    <a href="chitietduan.html" title="Chi tiết dự án">
+                      Chi tiết dự án
+
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="Blog.html" title="Blog" style="
+                    color: #00bed8 !important;
+                "> Blog </a>
+                  </li>
+
+                  <li class="">
+                    <a href="lienhe.html" title="Liên hệ"> Liên hệ </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="mn_icon_search d-block   col-lg-2" id="search_menu_icon">
+              <i class="bi bi-search"></i>
+                <div class="site-nav" id="search_menu">
+                  <p class="titlebox-search">Tìm kiếm</p>
+                  <div class="search-box ">
+                    <form action="/search" class="searchform searchform-categoris ">
+                      <div class="search-inner">
+                        <input id="inputSearchAuto" name="q" maxlength="40" class="searchinput input-search search-input" type="text" size="20" placeholder="Tìm kiếm dự án...">
+                      </div>
+                      <button type="submit" class="btn-search btn" id="search-header-btn">
+                        <i class="bi bi-search"style="
+                        color: white;
+                    "></i>
+                      </button>
+                    </form>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main class="main-content-theme">
+        <div id="service-page" class="page page-service">
+            <section class="section-parallax section-parallax-breadcrumb bg-top">
+                <div class="overlay-main"></div>
+                <div class="banner-title-outer">
+                    <div class="container">
+                        <div class="banner-title-name">
+                            <h1 class="text-white">TIN TỨC</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pd5  ">
+                                <ol class="breadcrumb breadcrumb-arrows" itemscope=""
+                                    itemtype="http://schema.org/BreadcrumbList">
+                                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                        <a href="/index.html" target="_self" itemprop="item"
+                                            style="text-decoration:none"><span class="TCGT text-white"
+                                                itemprop="name">Trang chủ</span></a>
+                                        <meta itemprop="position" content="1">
+                                    </li>
+                                    <li class="active" itemprop="itemListElement" itemscope=""
+                                        itemtype="http://schema.org/ListItem">
+                                        <span itemprop="item"
+                                            content="https://nextcompany.myharavan.com/pages/dich-vu"><span
+                                                class="DVGT text-white" itemprop="name">Tin Tức</span></span>
+                                        <meta itemprop="position" content="2">
+                                    </li>
+
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-list-blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 blog-area">
+                            <div class="row news-masonry">
+                                <!-- Begin: Nội dung blog -->      
+                                <div class="masonry-item col-lg-6 col-sm-6 col-xs-12">
+                                    <div class="blog-post blog-grid date-style-1 Leading">
+                                        <div class="wt-post-media wt-img-effect zoom-slow">
+                                            <a href="" title="Căn hộ Flora Apartments">
+                                                <img src="//file.hstatic.net/1000387172/article/sm_348_9cfb74895cdd4da598b70fe7cd69ca29_grande.jpg" alt="Căn hộ Flora Apartments" style="
+                                                max-width: 100%;
+                                            ">
+                                            </a>
+                                        </div>
+                                        <div class="wt-post-info p-t30 text-black">
+                                            <div class="wt-post-title">
+                                                <h4 class="post-title">
+                                                    <a href="" title="Căn hộ Flora Apartments" style="text-decoration:none">Căn hộ Flora Apartments</a>
+                                                </h3>
+                                            </div>
+                                            <div class="wt-post-meta ">
+                                                <ul>
+                                                    <li class="post-date">
+                                                        <strong>10-09</strong>
+                                                        <span>2019</span>
+                                                    </li>
+                                                    <li class="post-author">
+                                                        <span>	Người viết: Bé Nguyễn</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="wt-post-text">
+                                                <p>Căn hộ FLORA APARTMENTS với khoảng không gian thanh lịch khép kín cho hai tòa cao ốc, mỗi cao ốc gồm 45 căn hộ, mội tầng chỉ có 3 căn hộ, mỗi căn hộ có diện tích từ 105 m2&nbsp;tới...</p>
+                                            </div>
+                                            <a href="" class="site-button black"><span>Đọc thêm</span><em></em></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="masonry-item col-lg-6 col-sm-6 col-xs-12">
+                                    <div class="blog-post blog-grid date-style-1 Leading">
+                                        <div class="wt-post-media wt-img-effect zoom-slow">
+                                            <a href="" title="Nơi Cuộc Sống Bắt Đầu Với Thiên Nhiên">
+                                                <img src="//file.hstatic.net/1000387172/article/sm_343_7845a43010b847268c9619f94ab7145f_grande.jpg" alt="Nơi Cuộc Sống Bắt Đầu Với Thiên Nhiên" style="
+                                                max-width: 100%;
+                                            ">
+                                            </a>
+                                        </div>
+                                        <div class="wt-post-info p-t30 text-black">
+                                            <div class="wt-post-title">
+                                                <h4 class="post-title">
+                                                    <a href="" title="Nơi Cuộc Sống Bắt Đầu Với Thiên Nhiên" style="text-decoration:none">Nơi Cuộc Sống Bắt Đầu Với Thiên Nhiên</a>
+                                                </h3>
+                                            </div>
+                                            <div class="wt-post-meta ">
+                                                <ul>
+                                                    <li class="post-date">
+                                                        <strong>10-09</strong>
+                                                        <span>2019</span>
+                                                    </li>
+                                                    <li class="post-author">
+                                                        <span>	Người viết: Bé Nguyễn</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="wt-post-text">
+                                                <p>Đây là trang blog của cửa hàng. Bạn có thể dùng blog để quảng bá sản phẩm mới, chia sẻ trải nghiệm của khách hàng, các mẹo mua hàng hoặc bất kì điều gì bạn muốn chia sẻ.Làm thế nào...</p>
+                                            </div>
+                                            <a href="" class="site-button black"><span>Đọc thêm</span><em></em></a>
+                                        </div>
+                                    </div>
+                            </div>
+                                <div class="masonry-item col-lg-6 col-sm-6 col-xs-12">
+                                    <div class="blog-post blog-grid date-style-1 Leading">
+                                        <div class="wt-post-media wt-img-effect zoom-slow">
+                                            <a href="" title="Triangle Concrete House on lake">
+                                                <img src="//file.hstatic.net/1000387172/article/sm_340_90d73689a1284ab29112b18e574191cf_grande.jpg" alt="Triangle Concrete House on lake" style="
+                                                max-width: 100%;
+                                            ">
+                                            </a>
+                                        </div>
+                                        <div class="wt-post-info p-t30 text-black">
+                                            <div class="wt-post-title">
+                                                <h4 class="post-title">
+                                                    <a href="" title="Triangle Concrete House on lake" style="text-decoration:none">Triangle Concrete House on lake</a>
+                                                </h3>
+                                            </div>
+                                            <div class="wt-post-meta ">
+                                                <ul>
+                                                    <li class="post-date">
+                                                        <strong>10-09</strong>
+                                                        <span>2019</span>
+                                                    </li>
+                                                    <li class="post-author">
+                                                        <span>	Người viết: Bé Nguyễn</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="wt-post-text">
+                                                <p>Đây là trang blog của cửa hàng. Bạn có thể dùng blog để quảng bá sản phẩm mới, chia sẻ trải nghiệm của khách hàng, các mẹo mua hàng hoặc bất kì điều gì bạn muốn chia sẻ.Làm thế nào...</p>
+                                            </div>
+                                            <a href="" class="site-button black"><span>Đọc thêm</span><em></em></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="masonry-item col-lg-6 col-sm-6 col-xs-12">
+                                    <div class="blog-post blog-grid date-style-1 Leading">
+                                        <div class="wt-post-media wt-img-effect zoom-slow">
+                                            <a href="" title="Căn Hộ Đậm Chất Phương Tây">
+                                                <img src="//file.hstatic.net/1000387172/article/banner_blog-1_fd14682a832149bdb4b90b4b80287b65_grande.jpg" alt="Căn Hộ Đậm Chất Phương Tây" style="
+                                                max-width: 100%;
+                                            ">
+                                            </a>
+                                        </div>
+                                        <div class="wt-post-info p-t30 text-black">
+                                            <div class="wt-post-title">
+                                                <h4 class="post-title">
+                                                    <a href="" title="Căn Hộ Đậm Chất Phương Tây" style="text-decoration:none">Căn Hộ Đậm Chất Phương Tây</a>
+                                                </h3>
+                                            </div>
+                                            <div class="wt-post-meta ">
+                                                <ul>
+                                                    <li class="post-date">
+                                                        <strong>08-08</strong>
+                                                        <span>2019</span>
+                                                    </li>
+                                                    <li class="post-author">
+                                                        <span>	Người viết: NextCompany NextCompany</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="wt-post-text">
+                                                <p>Đây là trang blog của cửa hàng. Bạn có thể dùng blog để quảng bá sản phẩm mới, chia sẻ trải nghiệm của khách hàng, các mẹo mua hàng hoặc bất kì điều gì bạn muốn chia sẻ.Làm thế nào...</p>
+                                            </div>
+                                            <a href="" class="site-button black"><span>Đọc thêm</span><em></em></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 sidebar-area">
+                            <div class="sidebar-blog">
+                                <div class="news-latest clearfix">
+                                    <div class="sidebarblog-title title_block">
+                                        <h2>                   
+									Bài viết mới nhất								
+                                    </h2>
+                                         </div>
+                                         <div class="list-news-latest layered">
+                                            <div class="item-article clearfix">
+                                                <div class="number"></div>
+                                                <div class="post-content">
+                                                    <span class="cate-blog"><a href="" style="text-decoration:none">Tin tức</a></span>
+                                                    <h5 class="cate-canho fs-6"><a href="/blogs/news/can-ho-flora-apartments" style="text-decoration:none">Căn hộ Flora Apartments</a></h5>
+                                                </div>
+                                            </div>
+                                            <div class="item-article clearfix">
+                                                <div class="number"></div>
+                                                <div class="post-content">
+                                                    <span class="cate-blog"><a href="" style="text-decoration:none">Tin tức</a></span>
+                                                    <h5 class="cate-canho fs-6"><a href="/blogs/news/can-ho-flora-apartments" style="text-decoration:none">Nơi Cuộc Sống Bắt Đầu Với Thiên Nhiên</a></h5>
+                                                </div>
+                                            </div><div class="item-article clearfix">
+                                                <div class="number"></div>
+                                                <div class="post-content">
+                                                    <span class="cate-blog"><a href="" style="text-decoration:none">Tin tức</a></span>
+                                                    <h5 class="cate-canho fs-6"><a href="/blogs/news/can-ho-flora-apartments" style="text-decoration:none">Triangle Concrete House on lake</a></h5>
+                                                </div>
+                                            </div><div class="item-article clearfix">
+                                                <div class="number"></div>
+                                                <div class="post-content">
+                                                    <span class="cate-blog"><a href="" style="text-decoration:none">Tin tức</a></span>
+                                                    <h5 class="cate-canho fs-6"><a href="/blogs/news/can-ho-flora-apartments" style="text-decoration:none">Căn Hộ Đậm Chất Phương Tây</a></h5>
+                                                </div>
+                                            </div>
+                                         </div>
+                                </div>
+                                <div class="menu-blog">
+							<div class="group-menu">
+								<div class="sidebarblog-title title_block">
+									<h2>Danh mục blog</h2>
+								</div>
+								<div class="layered layered-category">
+									<div class="layered-content">
+										<ul class="tree-menu list-unstyled" >
+											<li class=" has-child level0 lv">
+												<a class="tree-menu-link icon-subnav" href="index.html" title="Trang chủ" target="_self" style="text-decoration:none;">
+													<span class="" >Trang chủ</span>
+													<span class="icon-control icon-plus-submenu"></span>
+												</a>
+											</li>
+											<li class=" has-child level0 lv ">
+												<a class="tree-menu-link icon-subnav" href="gioithieu.html" title="Giới thiệu" target="_self" style="text-decoration:none;">
+													<span class="">Giới thiệu</span>
+													<span class="icon-control icon-plus-submenu"></span>
+												</a>
+											</li>
+											<li class=" has-child level0 lv">
+												<a href="duan.html" title="Dự án" target="_self" style="text-decoration:none;">
+													Dự án
+												</a>
+											</li>
+											<li class=" has-child level0 lv ">
+												<a class="tree-menu-link icon-subnav" href="chitietduan.html" title="Chi tiết dự án" target="_self" style="text-decoration:none;">
+													<span class="">Chi tiết dự án</span>
+													<span class="icon-control icon-plus-submenu"></span>
+												</a>
+											</li>
+											<li class=" has-child level0 lv">
+												<a href="Blog.html" title="Blog" target="_self" style="text-decoration:none;">
+													Blog
+												</a>
+											</li>
+											<li class=" has-child level0 lv">
+												<a href="lienhe.html" title="Liên hệ" target="_self" style="text-decoration:none;">
+													Liên hệ
+												</a>
+											</li>											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- phan thong tin va lien he trang-->
+    <footer>
+      <div class="main-footer bg-white">
+        <div class="main-footer-bottom">
+          <div class="container scroltop-to-bottom">
+            <div class="row">
+              <!-- chia col md -->
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+                <div class="footer-col footer-block">
+                  <h4 class="footer-title">Giới thiệu</h4>
+                  <div class="footer-content">
+                    <p>Chúng tôi mong muốn trở thành nhà cung cấp dịch vụ xây dựng dân dụng giá trị gia tăng, hướng đến trở thành một mô hình chuẩn mực và tiên phong trong lĩnh vực xây dựng tại thị trường Việt Nam.</p>
+                    <!-- chen logo + icon -->
+                    <div class="logo-footer">
+                      <img src="./lbr/image/logo_bct.webp" class="d-block w-50" alt="Card image cap" />
+                    </div>
+                    <div class="social-list">
+                      <a href="/" target="_blank" rel="noreferrer" class="bi bi-facebook" aria-label="Facebook"></a>
+                      <a href="/" target="_blank" rel="noreferrer" class="bi bi-google" aria-label="Google"></a>
+                      <a href="/" target="_blank" rel="noreferrer" class="bi bi-twitter" aria-label="Twitter"></a>
+                      <a href="/" target="_blank" rel="noreferrer" class="bi bi-youtube" aria-label="Youtube"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+                <div class="footer-col footer-block">
+                  <h4 class="footer-title">Thông tin liên hệ</h4>
+                  <div class="footer-content toggle-footer">
+                    <ul class="list-unstyled">
+                      <li>
+                        <span> Địa chỉ: </span>
+                        Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.
+                      </li>
+                      <li>
+                        <span> Điện thoại: </span>
+                        1900.636.099
+                      </li>
+                      <li>
+                        <span> Fax: </span>
+                        1900.636.099
+                      </li>
+                      <li>
+                        <span> Email: </span>
+                        hi@haravan.com
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+                <div class="footer-col footer-link">
+                  <h4 class="footer-title">PHÁP LÝ & CÂU HỎI</h4>
+                  <div class="footer-content toggle-footer">
+                    <ul class="list-unstyled">
+                      <li class="item">
+                        <a hrel="" title="Tìm kiếm">Tìm kiếm</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Giới thiệu">Giới thiệu</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Chính sách đổi trả">Chính sách đổi trả</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Chính sách bảo mật">Chính sách bảo mật</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Điều khoản dịch vụ">Điều khoản dịch vụ</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg">
+                <div class="footer-col footer-link">
+                  <h4 class="footer-title">Thông tin</h4>
+                  <div class="footer-content toggle-footer">
+                    <ul class="list-unstyled">
+                      <li class="item">
+                        <a hrel="" title="Trang Chủ">Trang Chủ</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Giới thiệu">Giới thiệu</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Dự án">Dự án</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Chi tiết dự án">Chi tiết dự án</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Blog">Blog</a>
+                      </li>
+                      <li class="item">
+                        <a hrel="" title="Liên hệ">Liên hệ</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-footer--copyright">
+          <div class="container">
+            <div class="main-footer--border">
+              <p class="copyright">
+                Copyright © 2022
+                <a href="./index.html" style="text-decoration: none"> NextCompany</a>
+                .
+                <a target="_blank" href="" style="text-decoration: none">Powered by Haravan</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end thong tin va lien he trang -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./lbr/js/jquery-3.6.0.min.js"></script>
+    <script src="./lbr/js/main.js"></script>
+</html>
